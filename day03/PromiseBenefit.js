@@ -1,4 +1,4 @@
-function getINtoCar( ){
+async function getINtoCar( ){
     return new Promise ( (resolve) =>{
         console.log("Get into Car");
         resolve();
@@ -6,7 +6,7 @@ function getINtoCar( ){
 
 }
 
-function startCar(){
+async function startCar(){
     return new Promise ( (resolve) =>{
         console.log("Car Started");
         resolve();
@@ -14,7 +14,7 @@ function startCar(){
 
 }
 
-function drive(){
+async function drive(){
     return new Promise ( (resolve) =>{
         console.log( "Driving the car");
         resolve();
